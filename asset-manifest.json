@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GagikTask/static/css/main.06257311.css",
+    "main.js": "/GagikTask/static/js/main.3f8c0bd6.js",
+    "static/js/787.97a945da.chunk.js": "/GagikTask/static/js/787.97a945da.chunk.js",
+    "index.html": "/GagikTask/index.html",
+    "main.06257311.css.map": "/GagikTask/static/css/main.06257311.css.map",
+    "main.3f8c0bd6.js.map": "/GagikTask/static/js/main.3f8c0bd6.js.map",
+    "787.97a945da.chunk.js.map": "/GagikTask/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06257311.css",
+    "static/js/main.3f8c0bd6.js"
+  ]
+}
