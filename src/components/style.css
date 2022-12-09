@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.row{
+    width: 100%;
+    display: grid;
+    grid-gap: 100px 30px;
+ 
+}
+.container{
+    max-width: 1440px;
+    max-height: 1034px;
+    margin: auto;
+    width: 80%;
+     /*
+    min-width: 420px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 35%; */
+}
+
+.outer-row{
+    width: 100%;
+    position: relative;
+    margin: 156px auto 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    width: 100px;
+    height: 52px;
+    padding-top: 15px;
+    text-align: center;
+    background: #008594;
+    color:#FFFFFF;
+    border-radius: 4px;
+    margin-left: 24px;
+    cursor: pointer;
+    
+}
+
+.column input{
+    width: 80%;
+    font-weight: 400;
+    height: 52px;
+    border: 1px solid #FFCD04;
+    border-radius: 4px;
+    outline: none;
+    color: #DFDFDF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 16px;
+}
+
+.column p:nth-child(4) {
+    color: red;
+}
+.column p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: #174348;
+}
+
+.hide-completed{
+    text-align: right;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.hide-completed input {
+    -webkit-box-shadow: 0px 0px 0px 1px #008594;
+    -moz-box-shadow: 0px 0px 0px 1px #008594;
+    box-shadow: 0px 0px 0px 1px #008594;
+}
+
+.hide-completed p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 10px;
+    color: #174348;
+
+}
+
+
+
+/* ///////////////////////// */
+.container-content{
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.rw{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.container-content p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ACACAC;
+    text-align: center;
+}
+.container-content h2{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 36px;
+    color: #666666;
+}
+
+/**/
+
+
+
+
+
+
+.column-content1{
+   position: relative;
+   width: 75%;
+   line-height: 40px;
+
+}
+.column-content1 button{
+    background: none;
+    border: none;
+    font-size: 17px; 
+    position: absolute;
+    right: 0;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+.column-content1 input{
+    -webkit-box-shadow: 0px 0px 0px 1px #008594;
+    -moz-box-shadow: 0px 0px 0px 1px #008594;
+    box-shadow: 0px 0px 0px 1px #008594;
+    position: absolute;
+    left: -10%;
+    margin-top: 11px;
+}
+.column-content1 p {
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: -70px;
+    line-height: 40px;
+    color: #666666;
+    
+}
+
+.border{
+    border: 1px solid rgb(202, 202, 202);
+    max-width: 1200px;
+    margin-left: -110px;
+}
+
+/**/
+.delete-message{
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 35%;
+    z-index: 12;
+    margin: auto;
+}
+
+.delete-message p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #008594;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.delete-message button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #174348;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    background: none;
+    border: none;
+}
+.btns{
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:1030px){
+  .column-content1 p {
+    margin-left: -10px;
+  }
+  .border{
+    margin-left: -50px;
+  }
+  .delete-message{
+    left: 30%;
+  }
+}
+
+
+@media screen and (max-width:880px){
+    .column input{
+        width: 70%;
+    }
+    .delete-message{
+        left: 25%;
+      }
+}
+@media screen and (max-width:650px){
+ .column-content p ,h2{
+    font-size: 20px;
+    text-align: center;
+ }
+ .border{
+    margin-left: -45px;
+  }
+  .delete-message{
+    left: 15%;
+   
+  }
+}
+@media screen and (max-width:550px){
+    .column-content p{
+       font-size: 17px;
+       
+    }
+    .column-content h2{
+        font-size: 20px;
+     }
+     .column input{
+        width: 350px;
+    }
+    .btn{
+        margin-left:250px;
+        margin-top: 10px;
+    }
+    .border{
+        margin-left: -20px;
+    }
+    .delete-message{
+        left: 8%;
+        width: 354px;
+        height: 140px;
+      }
+      .btns{
+        margin-left: 114px;
+        margin-top: 2px;
+      }
+  
+}
+@media screen and (max-width:400px){
+ 
+     .column input{
+        width: 300px;
+    }
+    .btn{
+        margin-left:200px;
+        margin-top: 10px;
+    }
+    .hide-completed  {
+        position: fixed;
+        right: 0;
+        top: 80px;
+    }
+    .delete-message{
+        left: 3%;
+    }
+}
+
+   
